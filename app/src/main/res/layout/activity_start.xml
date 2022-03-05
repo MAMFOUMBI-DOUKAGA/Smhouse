@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".controller.StartActivity">
+
+    <ImageView
+        android:id="@+id/start_activity_imageview_icone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/image_page1"
+        />
+
+
+    <TextView
+        android:id="@+id/start_activity_textview_acroche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-34dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:textStyle=""
+        android:text="Votre conso en temps réel !"
+        />
+
+    <TextView
+        android:id="@+id/start_activity_textview_welcome_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:textStyle=""
+        tools:text="Bienvenue X Sur notre application
+!"
+        />
+
+
+    <TextView
+        android:id="@+id/start_activity_textview_sommmary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="La conso en temps réel de votre domicile sur une application pour un suivi sans soucis"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:textStyle="" />
+
+    <Button
+        android:id="@+id/start_button_commencer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:text="Commencer"
+        android:textSize="8sp" />
+
+
+</LinearLayout>
